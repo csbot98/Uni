@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="monitor.css">
+	<link rel="shortcut icon" href="https://icons.iconarchive.com/icons/ph03nyx/super-mario/16/Retro-Mario-icon.png" type="image/x-icon">
+    <title>PHP Projekt</title>
+</head>
+<body>
+	<script>
+		alert("Figyelem: A CSS része kétfajta felbontásra van optimalizálva. 1366x768 illetve 1920x1080. Ha változik a méret, akkor a CSS része nem esik majd egybe a specifikus háttérrel."); 
+	</script>
+    <main>
+	<div id="felsor">
+	<table>
+		<tr>
+			<td id="enname">
+				<h3 id="h3-1">Név:<br>Csengeri Ákos Botond</br></h3> 
+			</td>
+			<td id="ncode">
+				<h3 id="h3-2">Neptun kód:<br>B1Z81T</br></h3>
+			</td>
+			<td id="coin">
+				<h3 id="h3-3">Coin:<br>100</br></h3>
+			</td>
+			<td id="jegy">
+				<h3 id="h3-4">Jegy:<br>5</br></h3>
+			</td>
+		</tr>
+	</table>
+	</div>
+	<div id="projekt">
+		<p>II.Projekt</p>
+	</div>
+        <form id="form" action="welcome.php" method="post">
+            <div id="div1">
+                <label for="name">Username:</label>
+                <input type="text" name="name" required="required" placeholder="Bela" />
+            </div>
+
+            <div id="div2">
+                <label for="password">Password:</label>
+                <input type="password" name="password" required="required" placeholder="******" />
+            </div>
+
+            <button id="button" type="submit">Start</button>
+        </form>
+		<form action="https://media4.giphy.com/media/lgcUUCXgC8mEo/giphy.gif?cid=ecf05e47c5tfh5a60528gad0c8jq641k8xoslm26esc91n9w&rid=giphy.gif&ct=g">
+			<input id="but2" type="submit" style="background:transparent; border:none; color:transparent;">
+		</form>
+    </main>
+</body>
+</html>

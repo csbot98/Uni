@@ -1,0 +1,80 @@
+/*1366 X 768*/
+body{
+	background-image:url("mario_o.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#felsor{
+	font-weight:normal;
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	font-size:12px;
+	border: 5px solid pink;
+	float:center;
+	text-align: center;
+	margin-left:50px;
+	margin-right:50px;
+}
+#enname{
+	padding-left:2%;
+	margin-left:10px;
+	/*border: 5px solid white;*/
+}
+#ncode{
+	/*padding-left:15%;
+	padding-right:15%; 
+	border: 5px solid red;*/
+	padding-left:100px;
+	
+}
+#coin{
+	/*padding-left:15%;
+	padding-right:45%; 
+	border: 5px solid red;*/
+	padding-left:100px;
+	
+}
+#jegy{
+	/*padding-right:15%;
+	border: 5px solid red;*/
+	padding-left:100px;
+	
+}
+#projekt{
+	font-family: 'Press Start 2P', cursive;
+	color:#ffe6cc;
+	text-shadow: 2px 4px 0px rgba(152, 150, 150, 0.9);
+	margin-top:20px;
+	text-align:center;
+	border: 5px solid  #00cc99;
+}
+/*
+#h3-1{
+	padding-bottom:0px;
+	border: 5px solid orange;
+}
+#h3-2{
+	padding-top:0px;
+}*/
+#form{
+	font-family: 'Press Start 2P', cursive;
+	color:#ffe6cc;
+	text-shadow: 2px 4px 0px rgba(152, 150, 150, 0.9);
+	text-align:center;
+	border: 5px solid green;
+	
+}
+#button{
+	font-family: 'Press Start 2P', cursive;
+	color:#1a0d00;
+	text-shadow: 2px 4px 0px rgba(152, 150, 150, 0.9);
+}
+#div1{	
+	border: 5px solid purple;
+	
+}
+#div2{
+	padding-left:4px;
+	padding-bottom:10px;
+	border: 5px solid purple;
+}
